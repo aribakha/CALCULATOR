@@ -1,0 +1,52 @@
+                 BASIC SSTYLING HERE
+*{
+    margin:0;
+    padding:0;
+    font-family:ariel;
+}
+.calculator-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top:100px;
+}
+table tr td button{
+     outline: none;
+     color: white;
+     background-color: #DE5D83;
+     font-size: 18px;
+     font-family: arial;
+     font-style: italic;
+     font-weight: 200;
+     width: 50px;
+     border: 1px solid white;
+     box-shadow: 3px 0px 4px black;
+     border-radius: 30px;
+}
+.outer-border{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DE5D83;
+    width: 300px;
+    height: 350px;
+    padding: 20px;
+    /* margin: px; */
+    border-radius: 10px;
+}
+.merged{
+    height: 100px;
+}
+table tr td {
+    padding: 10px;
+}
+#input{
+    width: 300px;
+    height: 50px;
+    outline: none;
+    border: 1px solid grey;
+}
+#hightlight{
+    background-color: #A94064;
+}
